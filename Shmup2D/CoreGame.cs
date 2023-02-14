@@ -4,12 +4,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Shmup2D;
 
-public class Game1 : Game
+public class CoreGame : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
-    public Game1()
+    public CoreGame()
     {
         _graphics = new GraphicsDeviceManager(this);
         _graphics.PreferredBackBufferWidth = 1280;  // set this value to the desired width of your window
